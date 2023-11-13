@@ -1,0 +1,163 @@
+body {
+    background-color: #000; /* Black background color */
+    color: #0f0; /* Bright green text color */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font */
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px; /* Slight letter spacing for a terminal feel */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0f0; /* Bright green text color for headings */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Input Styles */
+.input-lg {
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 100%;
+    background-color: #000; /* Black background color for input fields */
+    color: #0f0; /* Bright green text color for input fields */
+    border: 1px solid #0f0; /* Bright green border */
+    border-radius: 5px;
+    outline: none; /* Remove input focus outline */
+}
+
+/* Button Styles */
+.btn-lg {
+    font-size: 1.5rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px; /* Slight letter spacing for buttons */
+}
+
+.btn-primary {
+    background-color: #0f0; /* Bright green button */
+    color: #000; /* Black button text color */
+}
+
+.btn-primary:hover {
+    background-color: #007f00; /* Darker green on hover */
+}
+
+.btn-success {
+    background-color: #00f; /* Bright blue button */
+    color: #000; /* Black button text color */
+}
+
+.btn-success:hover {
+    background-color: #0073e6; /* Darker blue on hover */
+}
+
+/* Chat Styles */
+.message-box {
+    margin: 20px auto;
+    width: 90%; /* Adjusted for responsiveness */
+    max-width: 800px;
+    padding: 20px;
+    background-color: #000;
+    border: 1px solid #0f0;
+    border-radius: 5px;
+}
+
+.messages {
+    height: 300px; /* Adjusted for responsiveness */
+    overflow-y: scroll;
+    background-color: #000;
+    color: wh#0f0;
+    padding: 10px;
+    border: 1px solid #0f0;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.inputs {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Added for responsiveness */
+    align-items: center;
+}
+
+#message {
+    flex-grow: 1;
+    background-color: #000;
+    color: #0f0;
+    border: 1px solid #0f0;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px; /* Added for responsiveness */
+}
+
+#send-btn {
+    background-color: #0f0;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #007f00;
+}
+
+.muted {
+    color: gray;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .message-box {
+        width: 80%;
+        height: 50%;
+    }
+
+    .messages {
+        max-height: 200px; /* Adjusted for smaller screens */
+    }
+    
+    #message {
+         width: 80%;
+         height: 50%;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        padding: 10px;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .input-lg {
+        font-size: 1.2rem;
+        padding: 8px;
+    }
+    .btn-lg {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+    }
+    .form-group {
+        width: 50%;
+    }
+}
+
+
+
+
